@@ -1,0 +1,14 @@
+<!--pages/userCenter/login.wxml-->
+
+<view class="container">
+  <view class="banner">
+    <title>Welcome to User Login</title>
+  </view>
+  <form class="user_login">
+    <text>User Name:</text>
+    <input class="login_field" type="text" name="userName" />
+    <text>User Password:</text>
+    <input class="password_field" type="text" name="userPassword" />
+    <button bindtap="bind_login_submission" class="submission"> Login </button>
+  </form>
+</view>

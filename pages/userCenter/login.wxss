@@ -1,0 +1,25 @@
+/* pages/userCenter/login.wxss */
+
+
+
+.user_login{
+    margin-top: 100px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_field{
+    background-color: transparent;
+    border-style:ridge; 
+}
+
+.password_field{
+    background-color: transparent;
+    border-style: ridge;
+}
+
+.submission{
+    margin-top: 50px;
+    text-align: center;
+}
