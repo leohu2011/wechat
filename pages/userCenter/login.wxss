@@ -12,11 +12,13 @@
 .login_field{
     background-color: transparent;
     border-style:ridge; 
+    border-color:aqua;
 }
 
 .password_field{
     background-color: transparent;
     border-style: ridge;
+    border-color:aqua;
 }
 
 .submission{

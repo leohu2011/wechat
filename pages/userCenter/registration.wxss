@@ -1,1 +1,33 @@
 /* registration.wxss */
+
+
+.user_login{
+    margin-top: 100px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_field{
+    background-color: transparent;
+    border-style:ridge; 
+    border-color:aqua;
+}
+
+.password_field{
+    background-color: transparent;
+    border-style: ridge;
+    border-color:aqua;
+}
+
+
+.password_confirm{
+    background-color: transparent;
+    border-style: ridge;
+    border-color:aqua;
+}
+
+.submission{
+    margin-top: 50px;
+    text-align: center;
+}

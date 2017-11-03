@@ -1,2 +1,15 @@
 <!--registration.wxml-->
-<text>registration.wxml</text>
+<view class="container">
+  <view class="banner">
+    <title>Welcome to User Registration</title>
+  </view>
+  <form class="user_login">
+    <text>User Name:</text>
+    <input class="login_field" bindinput="userNameInput" placeholder="Enter Username" type="text" name="userName" />
+    <text>User Password:</text>
+    <input class="password_field" bindinput="userPasswordInput" password="true" placeholder="Enter Password" type="text" name="userPassword" />
+    <text>Confirm Password:</text>
+    <input class="password_confirm" bindinput="passwordCheckInput" password="true" placeholder="Confirm Password" type="text" name="confirmPassword" />
+    <button bindtap="bind_register_submission" class="submission"> Register </button>
+  </form>
+</view>
